@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+:root {
+  --primary-white: #fff;
+  --primart-orange: #f9ab00;
+}
+body {
+  font-family: "roboto condensed" sans-serif;
+}
+
+/***************************NAV BAR******************************/
+a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  font-family: "roboto condensed" sans-serif;
+}
+
+/**************************Nav LINK*********************************/
+nav a.nav-link {
+  /*font-weight: 500;*/
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+nav ul li {
+  text-transform: uppercase;
+}
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+}
+.navbar-brand {
+  max-width: 17.25rem;
+}
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top: 0.178rem solid var(--primart-orange);
+}
+.navbar-nav > li > a:hover {
+  border-top: 0.178rem solid var(--primart-orange);
+}
+
+/***************************HEADER******************************/
+.header-wraper {
+  position: relative;
+  background: url(Website-Design-Background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.main-info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "roboto condensed" sans-serif;
+}
+.main-info h1 {
+  color: var(--primart-orange);
+  text-transform: uppercase;
+}
+
+/***************************REACT TYPED******************************/
+.type-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+/***************************FOOTER******************************/
+footer {
+  color: var(--primary-white) !important;
+}
